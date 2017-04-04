@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.0.0
 MinimumVisualStudioVersion = 10.0.0.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestLogger.ElasticSearch", "RequestLogger.ElasticSearch\RequestLogger.ElasticSearch.csproj", "{96A30558-412E-4B54-A5FE-2EA65180092D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestLogger.ElasticSearch.Tests", "RequestLogger.ElasticSearch.Tests\RequestLogger.ElasticSearch.Tests.csproj", "{A5E04DA4-7CAE-4A8A-A3EA-DBFED00C6FB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{96A30558-412E-4B54-A5FE-2EA65180092D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96A30558-412E-4B54-A5FE-2EA65180092D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96A30558-412E-4B54-A5FE-2EA65180092D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5E04DA4-7CAE-4A8A-A3EA-DBFED00C6FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E04DA4-7CAE-4A8A-A3EA-DBFED00C6FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E04DA4-7CAE-4A8A-A3EA-DBFED00C6FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E04DA4-7CAE-4A8A-A3EA-DBFED00C6FB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
