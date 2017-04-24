@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <projectUrl>https://github.com/ekmsystems/RequestLogger.ElasticSearch</projectUrl>
+    <licenseUrl>https://github.com/ekmsystems/RequestLogger.ElasticSearch/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes></releaseNotes>
+    <copyright></copyright>
+    <tags>request logger elasticsearch elastic search</tags>
+  </metadata>
+</package>
