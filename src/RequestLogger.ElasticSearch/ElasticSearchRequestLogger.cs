@@ -3,19 +3,19 @@ using Nest;
 
 namespace RequestLogger.ElasticSearch
 {
-    public class ElasticSearchLogger : IRequestLogger
+    public class ElasticSearchRequestLogger : IRequestLogger
     {
-        private readonly ElasticSearchLoggerConfiguration _config;
+        private readonly ElasticSearchRequestLoggerConfiguration _config;
         private readonly IElasticClient _client;
 
-        public ElasticSearchLogger(ElasticSearchLoggerConfiguration config = null)
+        public ElasticSearchRequestLogger(ElasticSearchRequestLoggerConfiguration config = null)
             : this(config, new ElasticClient())
         {
         }
 
-        public ElasticSearchLogger(ElasticSearchLoggerConfiguration config, IElasticClient client)
+        public ElasticSearchRequestLogger(ElasticSearchRequestLoggerConfiguration config, IElasticClient client)
         {
-            _config = config ?? new ElasticSearchLoggerConfiguration
+            _config = config ?? new ElasticSearchRequestLoggerConfiguration
             {
                 IndexName = "elastic-search-request-logger",
                 TypeName = "request"

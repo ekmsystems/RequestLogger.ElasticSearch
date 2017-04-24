@@ -27,7 +27,7 @@ namespace AspNetExample
 
         private static RequestLoggerModule CreateRequestLoggerModule()
         {
-            var requestLogger = new ElasticSearchLogger();
+            var requestLogger = new ElasticSearchRequestLogger();
             return new RequestLoggerModule(requestLogger);
         }
     }

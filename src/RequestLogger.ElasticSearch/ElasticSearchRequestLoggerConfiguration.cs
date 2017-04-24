@@ -1,6 +1,6 @@
 ﻿namespace RequestLogger.ElasticSearch
 {
-    public class ElasticSearchLoggerConfiguration
+    public class ElasticSearchRequestLoggerConfiguration
     {
         public string IndexName { get; set; }
         public string TypeName { get; set; }

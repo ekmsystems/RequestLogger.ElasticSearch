@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("RequestLogger.ElasticSearch.ElasticSearchLoggerTests")]
+[assembly: AssemblyTitle("RequestLogger.ElasticSearch.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("mrstebo, ekmsystems")]
-[assembly: AssemblyProduct("RequestLogger.ElasticSearch.ElasticSearchLoggerTests")]
+[assembly: AssemblyProduct("RequestLogger.ElasticSearch.Tests")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

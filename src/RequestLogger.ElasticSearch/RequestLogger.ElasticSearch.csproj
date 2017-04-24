@@ -55,8 +55,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ElasticSearchLogger.cs" />
-    <Compile Include="ElasticSearchLoggerConfiguration.cs" />
+    <Compile Include="ElasticSearchRequestLogger.cs" />
+    <Compile Include="ElasticSearchRequestLoggerConfiguration.cs" />
     <Compile Include="ElasticSearchRequestLog.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -8,7 +8,7 @@ namespace OwinExample
     {
         private static void ConfigureLogging(IAppBuilder app)
         {
-            var requestLogger = new ElasticSearchLogger();
+            var requestLogger = new ElasticSearchRequestLogger();
 
             app.UseRequestLoggerMiddleware(requestLogger);
 
